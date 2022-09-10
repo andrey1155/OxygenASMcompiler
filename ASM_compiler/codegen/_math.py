@@ -6,7 +6,7 @@ from ASM_compiler.VMres.codgen_exceptions import *
 
 AND_OR_OP = 3           ;       AND_OR   = [I_AND,I_OR]
 NOT_XOR_OP = 4          ;       NOT_XOR  = [I_NOT,I_XOR]
-MATH_AND_SHIFT_OP = 5   ;       MATH     = [I_ADD,I_SUB,I_DIV]
+MATH_AND_SHIFT_OP = 5   ;       MATH     = [I_ADD,I_SUB,I_DIV,I_MUL]
 DIV_UDIV_OP = 6         ;       DIV_UDIV = [I_DIV,I_UDIV]
 FMATH_OP = 7            ;       FMATH2   = [I_FADD,I_FSUB,I_FMUL,I_FDIV]   ;   FMATH1    = [I_EXP,I_SQRT,I_LN]
 
